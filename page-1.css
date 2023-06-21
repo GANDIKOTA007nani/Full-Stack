@@ -1,0 +1,57 @@
+*
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+body
+{
+    background-image: url('https://www.cint.com/static/3fd814e95b25227f09096a9aae9b9cfe/16310/connecteddotbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    opacity:60%;
+}
+.midbar
+{
+    position: absolute;
+    margin-left: 215px;
+    margin-top: 155px;
+    width: calc(100% - 200px);
+    min-height: 89vh;
+    background-color: rgb(13, 12, 12);
+    border-style: groove;
+}
+.topbar
+{
+    position: absolute;
+    display: flexbox;
+    right: 0;
+    top: 0;
+    left: 220px;
+    width: calc(100% - 190px);
+    height: 160px;
+    background: rgb(6, 6, 10);
+    border-style: groove;
+
+}
+.sidebar
+{
+    position: absolute;
+    display: flexbox;
+    left: 0;
+    top: 0;
+    width: 220px;
+    min-height: 113vh;
+    background: rgb(6, 6, 10);
+    border-style: groove;
+}
+.sidebar header
+{
+    font-size: 28px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 20px;
+    -webkit-text-fill-color: whitesmoke;
+
+}

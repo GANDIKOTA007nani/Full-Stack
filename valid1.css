@@ -1,0 +1,46 @@
+*
+{
+    text-decoration: none;
+}
+body
+{
+    background-color: rgb(249, 246, 243);
+}
+.group1
+{
+    position: relative;
+    display: block;
+    padding-left: 500px;
+    margin-top: 200px;
+}
+#input
+{
+    width: 200px;
+    height: 30px;
+    text-align: start;
+    background: transparent;
+    border: 1px solid rgb(8, 8, 8);
+    transition: bottom 0.7s;
+}
+#button
+{
+    margin-top: 10px;
+    width: 205px;
+    height: 30px;
+    display: block;
+    border: none;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+    opacity: 90%;
+    transition: 0.7s;
+}
+#button:hover
+{
+    opacity: 120%;
+    font-weight: bold;
+    transition: 2100ms ease-in-out;
+    border: 2px solid rgb(16, 16, 16);
+    background-color: rgb(52, 224, 161);
+    border-radius: 10%;
+}
